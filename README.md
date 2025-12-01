@@ -67,7 +67,7 @@ cmake ..
 make
 ./main
 ```
-## Usage
+## Utilisation
 1. Lancer le programme pour place le robt aléatoirement sur la carte
 2. Choisir le mode de déplacement :
 - Utiliser la touche "1" du clavier ou scanner un tag ArUcoa avec un ID = 0 pour activer le mode de déplacment manuel
