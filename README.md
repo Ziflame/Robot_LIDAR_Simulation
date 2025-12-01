@@ -7,7 +7,7 @@ Le robot explore un environnement inconnu en utilisant un LiDAR pour construire 
 
 ## Demonstration
 <p align="center">
-  <img src="images/video_demo.gif" alt="Demo"/>
+  <img src="Images/video_demo.gif" alt="Demo"/>
 </p>
 
 ## Documentation
