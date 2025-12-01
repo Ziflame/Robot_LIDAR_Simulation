@@ -74,6 +74,35 @@ make
 - Utiliser la touche "2" du clavier ou scanner un tag ArUco avec un ID = 1 pour activer le mode de suivi de mur
 4. Une fois l'exploration terminée, appuyer sur "echap" pour fermer le programme
 
+## Informations concernant la détection de la caméra pour les tags ArUco avec WSL
+Ce projet à entièremlent été coder sur un sous-système Linux (WSL), de ce fait la caméra n'est pas directment détectée.
+Pour détecter la caméra il faut suivre ces 5 étapes :
+1. Ouvrir l'invité de commande Powershell en mode administrateur
+2. Installer usbipd avec cette commande :
+```
+winget install usbipd-win
+```
+3. Listez les appareils USB connectés avec la commande :
+ ```
+usbipd list
+```
+4.Connecter la caméra à Linux avec ces deux commande :
+```
+usbipd bind --busid <VOTRE_BUSID>
+usbipd attach --wsl --busid <VOTRE_BUSID>
+```
+Remplacer <VOTRE_BUSID> par le busid de votre caméra (exemple :  1-8 )
+
+5. Enfin, dans votre invité de commande Linux (avant de lancer le programme), tapez cette commande :
+```
+sudo chmod 777 /dev/video0
+```
+- Normalement la caméra est detectée lors du lacemant du programme.
+- Le programme n'a pas été testé sur un boot Linux normal. Il est posqible que la caméra ne soit pas détectée.
+- Il est néamoins possible de tester le programme en utilisant les touches "1" et "2" du clavier
+
+   
+
 
 ## Contributeurs
 - Raphaël Maul
