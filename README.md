@@ -38,8 +38,8 @@ The robot explores an unknown environment using LiDAR to build a map. It must av
    make
    ./main
   ```
-  Then add the map you want in the build folder
-  Put the name map in the Simulation.cpp file (line 7)
+  - Add the map you want in the build folder
+  - Then put the name map in the Simulation.cpp file (line 7)
 
 ## Usage
 1. Run the program to randomly place the robot in a the map
