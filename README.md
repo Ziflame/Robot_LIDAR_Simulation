@@ -43,9 +43,10 @@ The robot explores an unknown environment using LiDAR to build a map. It must av
 
 ## Usage
 1. Run the program to randomly place the robot in a the map
-2. Press key "1" or scan an ArUco tag with ID 0 to activate the manual mod
-   Press key "2" or scan an ArUco tag with ID 1 to activate the wall-following mod
-3. Once exploration is complete, press "escape" to close the simulation.
+2. Change the how the robot moves :
+- Press key "1" or scan an ArUco tag with ID 0 to activate the manual mod
+- Press key "2" or scan an ArUco tag with ID 1 to activate the wall-following mod
+4. Once exploration is complete, press "escape" to close the simulation.
 
 ## Customization
 You can chose whatever map you want.
