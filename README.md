@@ -1,16 +1,16 @@
 # Simulation de Navigation Robotique avec LiDAR
 
-Ce projet implémente une simulation robotique d'un **robot mobile équipé d'un capteur LiDAR** pour explorer un environnement inconnu. Le système utilise **OpenCV** pour la visualisation en temps réel de la carte et de la grille d'occupation (Occupancy Grid).
+Ce projet consiste à implémenter un **robot mobile équipé d'un capteur LiDAR** pour explorer un environnement inconnu. Le système utilise **OpenCV** pour la visualisation en temps réel de la carte et de la grille d'occupation (Occupancy Grid).
 
 ## Objectifs du Projet
-Le robot explore un environnement inconnu en utilisant un LiDAR pour construire une carte. Il doit éviter les obstacles, couvrir toutes les zones accessibles et naviguer efficacement.
+Le robot explore un environnement inconnu en utilisant un LiDAR pour construire une carte. Il doit éviter les obstacles, couvrir toutes les zones accessibles et naviguer efficacement. Le mode de déplacement du robot doit être determiné en scannant des tags ArUco.
 
 ## Demonstration
 <p align="center">
   <img src="Images/video_demo.gif" alt="Demo"/>
 </p>
 
-Une vidéo de démonstration plus longue est disponible dans le dossier "Images"
+Une vidéo de démonstration plus longue est disponible dans le dossier "Images".
 
 ## Documentation
 - Pour le raycasting (lancer de rayons) : https://lodev.org/cgtutor/raycasting.html
