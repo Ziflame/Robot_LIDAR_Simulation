@@ -37,7 +37,7 @@ make
 ./main
 ```
 
-## Construction (Build)
+## Contributeurs
 - Raphaël Maul
 - Alexandre Raffin
 - Enzo Barro
