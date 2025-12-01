@@ -7,12 +7,12 @@ The robot explores an unknown environment using LiDAR to build a map. It must av
 
 
 ## Documentation
-For the raycasting : https://lodev.org/cgtutor/raycasting.html
-For the ArUco tags : https://docs.opencv.org/4.x/d5/dae/tutorial_aruco_detection.html
-to create ArUco tags : https://chev.me/arucogen/
-To Create the map we used a pixel art creator : https://www.pixilart.com/
-We used two maps : the first to do some tests and the real map
-We also used AI to help us debugging, write comments or if we got stuck o na problem.
+- For the raycasting : https://lodev.org/cgtutor/raycasting.html
+- For the ArUco tags : https://docs.opencv.org/4.x/d5/dae/tutorial_aruco_detection.html
+- To create ArUco tags : https://chev.me/arucogen/
+- To Create the map we used a pixel art creator : https://www.pixilart.com/
+- We used two maps : the first to do some tests and the real map
+- We also used AI to help us debugging, write comments or if we got stuck o na problem.
 
 ## Key Features
 - **Randomly generated environments** with obstacles of varying sizes.
