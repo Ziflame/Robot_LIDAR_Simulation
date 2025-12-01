@@ -10,6 +10,8 @@ Le robot explore un environnement inconnu en utilisant un LiDAR pour construire 
   <img src="Images/video_demo.gif" alt="Demo"/>
 </p>
 
+Une vidéo de démonstration plus longue est disponible dans le dossier "Images"
+
 ## Documentation
 - Pour le raycasting (lancer de rayons) : https://lodev.org/cgtutor/raycasting.html
 - Pour les tags ArUco : https://docs.opencv.org/4.x/d5/dae/tutorial_aruco_detection.html
@@ -67,9 +69,10 @@ make
 ```
 ## Usage
 1. Lancer le programme pour place le robt aléatoirement sur la carte
-2. Utiliser la touche "1" du clavier ou scanner un tag ArUcoa avec un ID = 0 pour activer le mode de déplacment manuel
-   Utiliser la touche "2" du clavier ou scanner un tag ArUco avec un ID = 1 pour activer le mode de suivi de mur
-3. Une fois l'exploration terminée, appuyer sur "echap" pour fermer le programme
+2. Choisir le mode de déplacement :
+- Utiliser la touche "1" du clavier ou scanner un tag ArUcoa avec un ID = 0 pour activer le mode de déplacment manuel
+- Utiliser la touche "2" du clavier ou scanner un tag ArUco avec un ID = 1 pour activer le mode de suivi de mur
+4. Une fois l'exploration terminée, appuyer sur "echap" pour fermer le programme
 
 
 ## Contributeurs
