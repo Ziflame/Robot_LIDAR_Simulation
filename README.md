@@ -17,7 +17,7 @@ Une vidéo de démonstration plus longue est disponible dans le dossier "Images"
 - Pour les tags ArUco : https://docs.opencv.org/4.x/d5/dae/tutorial_aruco_detection.html
 - Pour créer des tags ArUco : https://chev.me/arucogen/
 - Pour créer la carte, nous avons utilisé un créateur de pixel art : https://www.pixilart.com/
-- Nous avons utilisé deux cartes : la première pour effectuer des tests et la carte finale.
+- Nous avons utilisé deux cartes : la première pour effectuer des tests et la seconde qui est la carte principale de ce projet.
 - Nous avons également utilisé l'IA pour nous aider au débogage, à la rédaction de commentaires ou en cas de blocage sur un problème.
 
 ## Fonctionnalités Clés
