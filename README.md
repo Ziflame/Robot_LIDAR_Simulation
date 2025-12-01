@@ -5,6 +5,11 @@ Ce projet implémente une simulation robotique d'un **robot mobile équipé d'un
 ## Objectifs du Projet
 Le robot explore un environnement inconnu en utilisant un LiDAR pour construire une carte. Il doit éviter les obstacles, couvrir toutes les zones accessibles et naviguer efficacement.
 
+## Demonstration
+<p align="center">
+  <img src="images/video_demo.gif" alt="Demo"/>
+</p>
+
 ## Documentation
 - Pour le raycasting (lancer de rayons) : https://lodev.org/cgtutor/raycasting.html
 - Pour les tags ArUco : https://docs.opencv.org/4.x/d5/dae/tutorial_aruco_detection.html
