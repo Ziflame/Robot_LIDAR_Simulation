@@ -11,7 +11,7 @@ The robot explores an unknown environment using LiDAR to build a map. It must av
 - For the ArUco tags : https://docs.opencv.org/4.x/d5/dae/tutorial_aruco_detection.html
 - To create ArUco tags : https://chev.me/arucogen/
 - To Create the map we used a pixel art creator : https://www.pixilart.com/
-- We used two maps : the first to do some tests and the real map
+- We used two maps : the first to do some tests. The second one is the real map
 - We also used AI to help us debugging, write comments or if we got stuck o na problem.
 
 ## Key Features
