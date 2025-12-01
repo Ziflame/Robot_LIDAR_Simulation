@@ -30,18 +30,7 @@ Le robot explore un environnement inconnu en utilisant un LiDAR pour construire 
 - **[OpenCV](https://opencv.org/)** : pour la visualisation graphique.
 - **[CMake](https://cmake.org/)** : pour la configuration et la compilation du projet.
 
-## Construction (Build)
-**Compilation et exécution** :
-```
-bash
-cd Robot_LIDAR
-mkdir build
-cd build
-cmake ..
-make
-./main
-```
-## Structure du projet
+  ## Structure du projet
 ```
 Robot_LIDAR/
 ├── CMakeLists.txt          
@@ -64,6 +53,24 @@ Robot_LIDAR/
     ├── BehaviorManager.cpp
     └── ArucoManager.cpp
 ```
+
+## Construction (Build)
+**Compilation et exécution** :
+```
+bash
+cd Robot_LIDAR
+mkdir build
+cd build
+cmake ..
+make
+./main
+```
+## Usage
+1. Lancer le programme pour place le robt aléatoirement sur la carte
+2. Utiliser la touche "1" du clavier ou scanner un tag ArUcoa avec un ID = 0 pour activer le mode de déplacment manuel
+   Utiliser la touche "2" du clavier ou scanner un tag ArUco avec un ID = 1 pour activer le mode de suivi de mur
+3. Une fois l'exploration terminée, appuyer sur "echap" pour fermer le programme
+
 
 ## Contributeurs
 - Raphaël Maul
