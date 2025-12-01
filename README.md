@@ -83,10 +83,10 @@ Pour détecter la caméra il faut suivre ces 5 étapes :
 winget install usbipd-win
 ```
 3. Listez les appareils USB connectés avec la commande :
- ```
+```
 usbipd list
 ```
-4.Connecter la caméra à Linux avec ces deux commande :
+4. Connecter la caméra à Linux avec ces deux commande :
 ```
 usbipd bind --busid <VOTRE_BUSID>
 usbipd attach --wsl --busid <VOTRE_BUSID>
