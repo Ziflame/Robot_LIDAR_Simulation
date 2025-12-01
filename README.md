@@ -15,7 +15,6 @@ The robot explores an unknown environment using LiDAR to build a map. It must av
 - We also used AI to help us debugging, write comments or if we got stuck o na problem.
 
 ## Key Features
-- **Randomly generated environments** with obstacles of varying sizes.
 - **Random robot initialization** with no prior knowledge of its position.
 - **LiDAR simulation** using a raycasting algorithm 
 - **Autonomous exploration** Using right-handed wall-following algorithm
