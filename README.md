@@ -41,6 +41,29 @@ cmake ..
 make
 ./main
 ```
+## Structure du projet
+```
+Robot_LIDAR/
+├── CMakeLists.txt          
+├── map.png                 
+├── include/               
+│   ├── Simulation.hpp
+│   ├── Robot.hpp
+│   ├── Lidar.hpp
+│   ├── Map.hpp
+│   ├── OccupancyGrid.hpp
+│   ├── BehaviorManager.hpp
+│   └── ArucoManager.hpp
+└── src/                    
+    ├── main.cpp
+    ├── Simulation.cpp
+    ├── Robot.cpp
+    ├── Lidar.cpp
+    ├── Map.cpp
+    ├── OccupancyGrid.cpp
+    ├── BehaviorManager.cpp
+    └── ArucoManager.cpp
+```
 
 ## Contributeurs
 - Raphaël Maul
